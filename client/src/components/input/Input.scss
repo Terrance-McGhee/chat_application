@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  border-top: 2px solid black;
+}
+
+.form-input {
+  border: none;
+  width: 80%;
+  padding: 16px;
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.msg-button {
+  border: none;
+  font-size: 12px;
+  background-color: #5ca9be;
+  text-transform: uppercase;
+  padding: 8px;
+  width: 20%;
+}

@@ -1,0 +1,48 @@
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10%;
+  margin-top: 2px;
+}
+
+.message-box {
+  display: inline-block;
+  max-width: 70%;
+  padding: 6px 24px;
+  border-radius: 12px;
+}
+
+.message-text {
+  width: 100%;
+  word-wrap: break-word;
+  float: left;
+}
+
+.sent-text {
+  display: flex;
+  align-items: center;
+}
+
+.background-light {
+  background-color: #96def2;
+}
+
+.background-dark {
+  background-color: #5ca9be;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.pl-8 {
+  padding-left: 8px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
